@@ -12,6 +12,7 @@ export default class Widget {
     const observable = interval(5000);
     observable.subscribe(() => {
       this.api().subscribe((value) => this.addMessage(value));
+      setTimeout(() => observable.unsubscribe(), 1000);
     });
   }
 
