@@ -39,7 +39,7 @@ export default class Widget {
       <div class="text">${text}</div>
       <div class="date">${elem.date}</div>
     `;
-    this.container.querySelector('.list').appendChild(message);
+    this.container.querySelector('.list').insertAdjacentElement('afterbegin', message);
   }
   /* eslint-disable */
   api() {
