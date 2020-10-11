@@ -1,3 +1,4 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/0bc8sbmbmhu78lhf?svg=true)](https://ci.appveyor.com/project/AndreyKorolevich/rxjs-front-first-ajsb)
 Правила сдачи задания:
 
 1. **Важно**: в рамках этого ДЗ можно использовать любой менеджер пакетов
